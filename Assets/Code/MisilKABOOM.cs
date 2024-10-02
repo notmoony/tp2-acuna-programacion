@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem; 
 
-public class Balazos : MonoBehaviour
+public class MisilKABOOM : MonoBehaviour
 {
-    public GameObject DisparoPrefab;
+    public GameObject MisilPrefab;
 
     void Start()
     {
@@ -14,9 +14,9 @@ public class Balazos : MonoBehaviour
 
     void Update()
     {
-        if(Input.GetButtonDown("Jump")) 
+        if(Input.GetMouseButtonDown(0)) 
         {
-            Instantiate(DisparoPrefab, transform.position, Quaternion.identity);
+            Instantiate(MisilPrefab, transform.position, Quaternion.identity);
         }
     }
 }

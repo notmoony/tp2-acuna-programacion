@@ -6,14 +6,15 @@ TagManager:
   tags:
   - Paredes
   - JueraBicho
+  - misil
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - player
   - Water
   - UI
-  - 
+  - misil
   - 
   - 
   - 

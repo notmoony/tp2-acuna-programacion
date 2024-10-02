@@ -6,6 +6,7 @@ public class Disparo : MonoBehaviour
 {
     public float velocidadDisparo;
     private ContadorEnemigos contadorenemigos;
+    
 
     void Start()
     {

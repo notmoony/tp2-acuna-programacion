@@ -39,11 +39,11 @@ InputManager:
     joyNum: 0
   - serializedVersion: 3
     m_Name: Fire1
-    descriptiveName: 
-    descriptiveNegativeName: 
-    negativeButton: 
-    positiveButton: space
-    altNegativeButton: 
+    descriptiveName: mouse 0
+    descriptiveNegativeName: mouse 0
+    negativeButton: mouse 0
+    positiveButton: mouse 0
+    altNegativeButton: mouse 0
     altPositiveButton: mouse 0
     gravity: 1000
     dead: 0.001
